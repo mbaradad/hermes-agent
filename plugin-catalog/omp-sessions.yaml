@@ -1,6 +1,6 @@
 name: omp-sessions
 repo: https://github.com/mbaradad/omp-sessions
-sha: ba26902a97378d376941f1883d3f4b3c624ec4a5
+sha: 72fa7372d7ea2c93f92a1c1cfe6122b433dcce0c
 subdir: integrations/hermes/omp-sessions
 description: 'Start, schedule and supervise omp coding sessions (omp-sessions) from Hermes, hear back when they settle, and run kanban cards assigned to omp as omp sessions.'
 maintainer: mbaradad
@@ -8,12 +8,12 @@ tier: community
 category: tools
 requires_hermes: '>=0.23.0'
 docs_url: https://github.com/mbaradad/omp-sessions/blob/main/docs/HERMES.md
-version: "0.6.0"
+version: "0.6.1"
 title: omp Sessions
 screenshots:
-  - https://raw.githubusercontent.com/mbaradad/omp-sessions/ba26902a97378d376941f1883d3f4b3c624ec4a5/site/assets/shots/hermes-dashboard.png
-  - https://raw.githubusercontent.com/mbaradad/omp-sessions/ba26902a97378d376941f1883d3f4b3c624ec4a5/site/assets/shots/hermes-detail.png
-  - https://raw.githubusercontent.com/mbaradad/omp-sessions/ba26902a97378d376941f1883d3f4b3c624ec4a5/site/assets/shots/hermes-desktop.png
+  - https://raw.githubusercontent.com/mbaradad/omp-sessions/72fa7372d7ea2c93f92a1c1cfe6122b433dcce0c/site/assets/shots/hermes-dashboard.png
+  - https://raw.githubusercontent.com/mbaradad/omp-sessions/72fa7372d7ea2c93f92a1c1cfe6122b433dcce0c/site/assets/shots/hermes-detail.png
+  - https://raw.githubusercontent.com/mbaradad/omp-sessions/72fa7372d7ea2c93f92a1c1cfe6122b433dcce0c/site/assets/shots/hermes-desktop.png
 platforms: [linux, macos]
 known_issues:
   - Needs the omp-sessions command on PATH, from the omp Sessions VS Code extension ("omp: Install omp-sessions Command") or the release tarball (npm install -g https://github.com/mbaradad/omp-sessions/releases/download/v<version>/omp-sessions-<version>.tgz).
